@@ -26,12 +26,12 @@ middleware.json = function(){
   }
 }
 
+_.extendGatherable(middleware)
+
 var use = [
   middleware.next(),
   middleware.json()
 ]
-
-_.extendGatherable(middleware)
 
 console.log(use) // [ [function], [function] ]
 
