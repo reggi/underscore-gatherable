@@ -1,0 +1,29 @@
+{
+  "name": "underscore-gatherable",
+  "version": "0.0.1",
+  "description": "Make any object of functions gatherable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggi/underscore-gatherable.git"
+  },
+  "keywords": [
+    "underscore",
+    "gather",
+    "gatherable",
+    "prototype",
+    "generator"
+  ],
+  "author": "Thomas Reggi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reggi/underscore-gatherable/issues"
+  },
+  "homepage": "https://github.com/reggi/underscore-gatherable#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
