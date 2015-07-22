@@ -10,7 +10,7 @@ npm install underscore-gatherable
 
 ```javascript
 var _ = require("underscore")
-_.mixin(require("./underscore-gatherable"))
+_.mixin(require("underscore-gatherable"))
 
 var middleware = _.makeGatherable()
 
